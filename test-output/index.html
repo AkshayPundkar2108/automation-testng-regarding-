@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-loan_department" class="navigator-link">
+              <span class="suite-name border-failed">loan department</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-loan_department" class="navigator-link ">
+                    <span>C:\Users\admin\eclipse-workspace1(mobie_testing )\AutomationPractice\testng0.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-loan_department" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-loan_department" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-loan_department" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-loan_department" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-loan_department" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-loan_department" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-loan_department" class="hide-methods failed suite-loan_department"> (hide)</a> <!-- hide-methods failed suite-loan_department -->
+                      <a href="#" panel-name="suite-loan_department" class="show-methods failed suite-loan_department"> (show)</a> <!-- show-methods failed suite-loan_department -->
+                    </span>
+                    <div class="method-list-content failed suite-loan_department">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day1" class="method navigator-link" hash-for-method="first_Test">first_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-loan_department -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-loan_department" class="hide-methods passed suite-loan_department"> (hide)</a> <!-- hide-methods passed suite-loan_department -->
+                      <a href="#" panel-name="suite-loan_department" class="show-methods passed suite-loan_department"> (show)</a> <!-- show-methods passed suite-loan_department -->
+                    </span>
+                    <div class="method-list-content passed suite-loan_department">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day3" class="method navigator-link" hash-for-method="Web_login_car_loan">Web_login_car_loan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day4" class="method navigator-link" hash-for-method="Web_login_home_loan">Web_login_home_loan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day3" class="method navigator-link" hash-for-method="api_Login_car_loan">api_Login_car_loan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day4" class="method navigator-link" hash-for-method="api_Login_home_loan">api_Login_home_loan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day3" class="method navigator-link" hash-for-method="mobile_login_car_loan">mobile_login_car_loan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day3" class="method navigator-link" hash-for-method="mobile_login_car_loan1">mobile_login_car_loan1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day3" class="method navigator-link" hash-for-method="mobile_login_car_loan2">mobile_login_car_loan2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day3" class="method navigator-link" hash-for-method="mobile_login_car_loan3">mobile_login_car_loan3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day3" class="method navigator-link" hash-for-method="mobile_login_car_loan4">mobile_login_car_loan4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day4" class="method navigator-link" hash-for-method="mobile_login_home_loan">mobile_login_home_loan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day2" class="method navigator-link" hash-for-method="p_loan">p_loan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-loan_department" title="rahul_shetty_testNg.day1" class="method navigator-link" hash-for-method="second_Test">second_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-loan_department -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-loan_department" class="panel loan_department">
+          <div class="suite-loan_department-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">rahul_shetty_testNg.day1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="first_Test">
+                  </a> <!-- first_Test -->
+                  <span class="method-name">first_Test</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at rahul_shetty_testNg.day1.first_Test(day1.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-loan_department-class-failed -->
+          <div class="suite-loan_department-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rahul_shetty_testNg.day4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Web_login_home_loan">
+                  </a> <!-- Web_login_home_loan -->
+                  <span class="method-name">Web_login_home_loan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="api_Login_home_loan">
+                  </a> <!-- api_Login_home_loan -->
+                  <span class="method-name">api_Login_home_loan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobile_login_home_loan">
+                  </a> <!-- mobile_login_home_loan -->
+                  <span class="method-name">mobile_login_home_loan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-loan_department-class-passed -->
+          <div class="suite-loan_department-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rahul_shetty_testNg.day2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="p_loan">
+                  </a> <!-- p_loan -->
+                  <span class="method-name">p_loan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-loan_department-class-passed -->
+          <div class="suite-loan_department-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rahul_shetty_testNg.day3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Web_login_car_loan">
+                  </a> <!-- Web_login_car_loan -->
+                  <span class="method-name">Web_login_car_loan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="api_Login_car_loan">
+                  </a> <!-- api_Login_car_loan -->
+                  <span class="method-name">api_Login_car_loan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobile_login_car_loan">
+                  </a> <!-- mobile_login_car_loan -->
+                  <span class="method-name">mobile_login_car_loan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobile_login_car_loan1">
+                  </a> <!-- mobile_login_car_loan1 -->
+                  <span class="method-name">mobile_login_car_loan1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobile_login_car_loan2">
+                  </a> <!-- mobile_login_car_loan2 -->
+                  <span class="method-name">mobile_login_car_loan2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobile_login_car_loan3">
+                  </a> <!-- mobile_login_car_loan3 -->
+                  <span class="method-name">mobile_login_car_loan3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobile_login_car_loan4">
+                  </a> <!-- mobile_login_car_loan4 -->
+                  <span class="method-name">mobile_login_car_loan4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-loan_department-class-passed -->
+          <div class="suite-loan_department-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rahul_shetty_testNg.day1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="second_Test">
+                  </a> <!-- second_Test -->
+                  <span class="method-name">second_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-loan_department-class-passed -->
+        </div> <!-- panel loan_department -->
+        <div panel-name="test-xml-loan_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\eclipse-workspace1(mobie_testing )\AutomationPractice\testng0.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;loan department&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;rahul_shetty_testNg.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Personal loan&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;rahul_shetty_testNg.day1&quot;/&gt;
+      &lt;class name=&quot;rahul_shetty_testNg.day2&quot;/&gt;
+      &lt;class name=&quot;rahul_shetty_testNg.day4&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Personal loan --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Car loan&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;rahul_shetty_testNg.day3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Car loan --&gt;
+&lt;/suite&gt; &lt;!-- loan department --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-loan_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for loan department</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Personal loan (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Car loan (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-loan_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for loan department</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Web_login_home_loan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">mobile_login_home_loan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">p_loan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">second_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-loan_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for loan department</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_loan_department');
+function tableData_loan_department() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'first_Test')
+data.setCell(0, 2, 'rahul_shetty_testNg.day1')
+data.setCell(0, 3, 22);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'mobile_login_car_loan4')
+data.setCell(1, 2, 'rahul_shetty_testNg.day3')
+data.setCell(1, 3, 4);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Web_login_home_loan')
+data.setCell(2, 2, 'rahul_shetty_testNg.day4')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'api_Login_home_loan')
+data.setCell(3, 2, 'rahul_shetty_testNg.day4')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'second_Test')
+data.setCell(4, 2, 'rahul_shetty_testNg.day1')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'p_loan')
+data.setCell(5, 2, 'rahul_shetty_testNg.day2')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'mobile_login_home_loan')
+data.setCell(6, 2, 'rahul_shetty_testNg.day4')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Web_login_car_loan')
+data.setCell(7, 2, 'rahul_shetty_testNg.day3')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'mobile_login_car_loan3')
+data.setCell(8, 2, 'rahul_shetty_testNg.day3')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'mobile_login_car_loan')
+data.setCell(9, 2, 'rahul_shetty_testNg.day3')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'api_Login_car_loan')
+data.setCell(10, 2, 'rahul_shetty_testNg.day3')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'mobile_login_car_loan1')
+data.setCell(11, 2, 'rahul_shetty_testNg.day3')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'mobile_login_car_loan2')
+data.setCell(12, 2, 'rahul_shetty_testNg.day3')
+data.setCell(12, 3, 1);
+window.suiteTableData['loan_department']= { tableData: data, tableDiv: 'times-div-loan_department'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 ms</span>
+              <div id="times-div-loan_department">
+              </div> <!-- times-div-loan_department -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-loan_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for loan department</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-loan_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-loan_department" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">rahul_shetty_testNg.day2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">before_suite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">before_test</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rahul_shetty_testNg.day1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">first_Test</span>
+                <span class="method-start">114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after_method</span>
+                <span class="method-start">146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">second_Test</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after_method</span>
+                <span class="method-start">152 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rahul_shetty_testNg.day2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">p_loan</span>
+                <span class="method-start">164 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rahul_shetty_testNg.day4</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before_method</span>
+                <span class="method-start">169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Web_login_home_loan</span>
+                <span class="method-start">170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">before_method</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">api_Login_home_loan</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">before_method</span>
+                <span class="method-start">182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mobile_login_home_loan</span>
+                <span class="method-start">182 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rahul_shetty_testNg.day3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Web_login_car_loan</span>
+                <span class="method-start">297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">api_Login_car_loan</span>
+                <span class="method-start">301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mobile_login_car_loan</span>
+                <span class="method-start">303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mobile_login_car_loan1</span>
+                <span class="method-start">311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mobile_login_car_loan2</span>
+                <span class="method-start">314 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mobile_login_car_loan3</span>
+                <span class="method-start">317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mobile_login_car_loan4</span>
+                <span class="method-start">323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">after_test</span>
+                <span class="method-start">328 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">after_suite</span>
+                <span class="method-start">336 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

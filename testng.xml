@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="loan department">
+
+    
+    <test name="Personal loan">
+        <classes>
+            <class name="rahul_shetty_testNg.day1"/>
+            <class name="rahul_shetty_testNg.day2"/>
+            <class name="rahul_shetty_testNg.day4"/>
+            <class name="rahul_shetty_testNg.day5"/>
+            <class name="rahul_shetty_testNg.day6"/>
+        </classes>
+    </test>
+
+    <!-- Test: Car loan -->
+    <test name="Car loan">
+        <classes>
+            <class name="rahul_shetty_testNg.day3"/>
+        </classes>
+    </test>
+
+</suite>
